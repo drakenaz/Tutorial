@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="kn.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="background">
+<p class="top">Kryžiukai - nuliukai v2.0</p>
+<div class="main">
+	<p id="thisGame" class="left">Vyksta žaidimas</p>
+</div>
+<div class="main">
+	<table class="center">
+		<tbody>
+			<tr>
+				<td id="11" class="blank"><button id="111" value="11" type="button" class="matoma" onclick="vykdyti(111)"></button></td>
+				<td id="12" class="blank"><button id="112" value="12" type="button" class="matoma" onclick="vykdyti(112)"></button></td>
+				<td id="13" class="blank"><button id="113" value="13" type="button" class="matoma" onclick="vykdyti(113)"></button></td>
+			</tr>
+			<tr>
+				<td class="blank" id="21"><button id="121" value="21" type="button" class="matoma" onclick="vykdyti(121)"></button></td>
+				<td id="22" class="blank"><button id="122" value="22" type="button" class="matoma" onclick="vykdyti(122)"></button></td>
+				<td id="23" class="blank"><button id="123" value="23" type="button" class="matoma" onclick="vykdyti(123)"></button></td>
+			</tr>
+			<tr>
+				<td id="31" class="blank"><button id="131" value="31" type="button" class="matoma" onclick="vykdyti(131)"></button></td>
+				<td id="32" class="blank"><button id="132" value="32" type="button" class="matoma" onclick="vykdyti(132)"></button></td>
+				<td id="33" class="blank"><button id="133" value="33" type="button" class="matoma" onclick="vykdyti(133)"></button></td>
+			</tr>
+		</tbody>
+		
+	</table>
+
+	</br>
+	<button id="200" class="click" type="button" onclick="restart()">Iš naujo</button>
+	<p id="bottom">Žaidimo pradžia nulemiama burtas, jei priešininkas dar nepaėjo - eini pirmas</p>
+</div>
+
+<div class="main">
+	<table >
+		<tbody >
+			<tr>
+				<td class="white1">Žaidėjas</td>
+				<td class="white1">Lygiosios</td>
+				<td class="white1">Priešininkas</td>
+			</tr>
+			<tr>
+				<td><p  class="white" id="resultx">0</p></td>
+				<td><p class="white" id="tie">0</p></td>
+				<td><p class="white" id="resulto">0</p></td>
+			</tr>
+		</tbody>
+	</table>
+</div>		
+		
+</body>
+<script src="kn.js"></script>
+</html>

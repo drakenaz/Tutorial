@@ -1,0 +1,92 @@
+.blank{
+width:30px;
+height:30px;
+}
+
+.background{
+	background: url("background.jpg") no-repeat
+}
+
+p.left{
+text-align: right;
+font-size: 20px;
+font-weight: bold;
+color: white; 
+}
+
+table.center{
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+	
+.click{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.main{
+	float: left;
+	width: 33%;
+	height: 260px;
+}
+
+.top{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: serif;
+	text-align: center;
+	margin: 20px;
+	color: white; 
+}
+
+.x{
+background:url("x.png") no-repeat;
+width:30px;
+height:30px;
+}
+
+.white1{
+	padding-right:10px;
+	color: white;
+}
+
+.white{
+	text-align: center;
+	color: white; 
+}
+
+.o{
+background:url("o.png") no-repeat;
+width:30px;
+height:30px;
+}
+
+button.matoma{
+	width:30px;
+	height:30px;
+}
+
+button.nematoma{
+	display:none;
+}
+
+.result{
+	border: 1px black solid;
+}
+
+.result1{
+	display: inline-box;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px black solid;
+	width:80px;
+	color: white; 
+}
+
+#bottom{
+	text-align: center;
+	color: white; 
+}
